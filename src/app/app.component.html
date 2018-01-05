@@ -1,0 +1,25 @@
+<!--  All css classes are Bonus- not in tutorial -->
+<h1>{{title}}</h1><!--Root component template view - app.component.html-->
+<span class="detailText">
+Modified from tutorial at https://angular.io/tutorial/toh-pt1
+<p>Search code for "Bonus- not in tutorial" to see modifications
+</span>
+<hr>
+<span class="featureText">
+<h2>Features:</h2>
+<ul>
+	<li>Services
+	<li>Messages
+	<li>Routing
+</ul>
+</span>	
+	
+<nav>
+	<a class="routerLinkMenu" routerLink="/dashboard">Dashboard</a>
+	<a class="routerLinkMenu" routerLink="/heroes">Heroes</a>
+</nav>
+
+<!--app-heroes></app-heroes> Use this when directly inserting HeroesComponent , and not using routes -->
+<router-outlet></router-outlet> <!-- Use this when using routes: tells the router where to display routed views -->
+
+<app-messages class="appmessages"></app-messages>

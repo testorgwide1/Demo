@@ -1,0 +1,15 @@
+<!--  All css classes are Bonus- not in tutorial -->
+<div *ngIf="hero">
+
+	<button (click)="goBack()">Back</button>
+	
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <div class="noteText">NOTE: Type in the "Name" textbox to see two-way data binding in action</div>
+  <p><div><label class="label">id: </label>{{hero.id}}</div>
+  <div>
+    <label class="label">name:
+      <input [(ngModel)]="hero.name" placeholder="name"/>
+    </label>
+  </div>
+
+</div>

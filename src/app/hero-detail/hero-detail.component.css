@@ -1,0 +1,24 @@
+    /* HeroDetail CSS styles
+    
+    	All Bonus- not in tutorial
+    */
+
+	h1,h2 {
+		font-family: Garamond, Verdana, Arial;
+		color: slateblue;
+		line-height: 2px;
+	}
+	
+	.label {
+		color : slateblue;
+		font-family: Garamond, Verdana, Arial;
+		font-weight: 700;
+		font-variant: small-caps;
+	}
+	
+	.noteText {
+		font-family: Calibri, Verdana, Arial;
+		font-size: 16px; 
+		font-style: italic;
+		font-weight: 700;
+	}

@@ -1,0 +1,13 @@
+  <div *ngIf="messageService.messages.length">
+
+  <!-- Messages - messages.component.html, 
+  	selector app-messages in MessageComponent class message.component.ts -->
+  
+  <h3>Messages</h3>
+  <ol>
+  <div *ngFor='let message of messageService.messages'> <li>{{message}} </div>
+  </ol>
+  <button class="clear"
+          (click)="messageService.clear()">Clear Messages</button>
+
+</div>
